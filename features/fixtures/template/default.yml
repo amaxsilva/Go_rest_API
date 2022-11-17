@@ -1,0 +1,9 @@
+---
+transacao:
+  descricao: irure commodo
+  valor:
+  dataVencimento: 
+  efetivada: 0
+  tipo: D
+
+#usar site para transformr json em yml
