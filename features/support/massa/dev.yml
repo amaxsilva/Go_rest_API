@@ -1,18 +1,55 @@
+# a:
+#   - 
+# b:
+#   - 
+# c:
+#   - 
+# d:
+#   - 
+
 email:
   - email_1: teste_autimacaaooo@gmail.com
     email_existente: teste_qa@gmail.com
     login: user_qa@teste.com
     vazio:
-
+# f:
+#   - 
+# g:
+#   - 
+# h:
+#   - 
+# i:
+#   - 
+# j:
+#   - 
+# k:
+#   - 
+# l:
+#   - 
+# m:
+#   - 
+nomes:
+  - nome_0: Francisco Ferreira
+    nome1:
+# o:
+#   - 
 password:
   - pass1: user123
     vazio:
-
+# q:
+#   - 
+# r:
+#   -
+# s:
+#   -    
 transacao:
   - data: '20220503'
     valor: 501.56
     vazio:
 
-valor:
-  - valor0: 501.56
-    valor1:
+token:
+  - token_valido: 'b0975bbe658bc9bd91e320f16a8842297d5692af0df160397003984c9acfb1a2'    
+# u:
+#   - 
+# v:
+#   - 
