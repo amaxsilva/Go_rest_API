@@ -5,10 +5,9 @@ module  GET
         # debug_output $stdout if HTTP_LOG
         base_uri CONFIG_APIREST['url']['url_base']
   
-        format :json
-        @token = "b0975bbe658bc9bd91e320f16a8842297d5692af0df160397003984c9acfb1a2"                     
+        format :json          
         def post_get
-            self.class.get('/users', headers: {'Content-Type' => 'application/json',  'Authorization' => @token})
+            self.class.get('/users', headers: {'Content-Type' => 'application/json'})
         end
       end
    end

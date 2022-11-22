@@ -1,8 +1,6 @@
 require 'capybara/cucumber'
 require 'selenium-webdriver'
 require 'site_prism'
-#require_relative 'helper'
-#require_relative 'utils'
 require 'pry'
 require 'rspec'
 require 'allure-cucumber'
@@ -10,11 +8,14 @@ require 'fileutils'
 require 'httparty'
 require 'json'
 require 'json/pure'
-#require 'faker'
+require 'faker'
 #require 'cpf_faker'
 #require 'graphql'
 # require "graphql/client"
 # require "graphql/client/http"
+#require_relative 'helper'
+#require_relative 'utils'
+
 
 # AJUSTAR ---------------------
 ENVIRONMENT_TYPE = ENV['ENVIRONMENT_TYPE'] unless defined?(ENVIRONMENT_TYPE)

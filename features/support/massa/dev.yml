@@ -8,10 +8,10 @@
 #   - 
 
 email:
-  - email_1: teste_autimacaaooo@gmail.com
+  - email_1: teste@gmail.com
     email_existente: teste_qa@gmail.com
-    login: user_qa@teste.com
-    vazio:
+    faker: Faker::Internet.email
+    vazio:   
 # f:
 #   - 
 # g:
