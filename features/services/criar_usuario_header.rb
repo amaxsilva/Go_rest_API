@@ -8,7 +8,7 @@ module POST_CRIAR_USUARIO
         format :json
         $headers = {
           'Content-Type':'application/json',
-          Authorization: " Bearer b0975bbe658bc9bd91e320f16a8842297d5692af0df160397003984c9acfb1a2"
+          Authorization: " Bearer seu_token"
         }               
         def post_body_criar(json_body_criar) 
            
